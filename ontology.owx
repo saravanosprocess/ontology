@@ -1,0 +1,1085 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ioannis/ontologies/2023/5/untitled-ontology-56"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ioannis/ontologies/2023/5/untitled-ontology-56">
+    <Prefix name="" IRI="http://www.semanticweb.org/ioannis/ontologies/2023/5/untitled-ontology-56/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+        <Declaration>
+        <Class IRI="#AudioEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BMW"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BioFuel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Car"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarManufacturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarsFromLexus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CityCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompactExecutiveCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompactSportCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Convertible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daimler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diesel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EVMotor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electricity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExecutiveCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FamilyCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ford"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FuelType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fuelsteering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FullSizeExecutiveCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrandTourers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HGV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HGVManufacturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HatchBack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HybridMotor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IVECO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialVehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InlineEngine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LargeFamilyCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lexus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manufacturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MercedesTruck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MidLuxuryExecutiveCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultipurposeCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NamedCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NavigationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nissan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OffRoadCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petrol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SafetyEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemiTruck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmallFamilyCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportSaloonCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportsCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuperminiCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tesla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Truck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VEngine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VW"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Van"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VehicleEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Volvo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BodyStyle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CarManufacturerCo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CountryOfProduction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CountryProducedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Designed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Engine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Fuel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Fuels"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HGVManufacturerCo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsBodyStyleOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsEngineTypeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsManufacturer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#MadeIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Makes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Manufacturer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ProducedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Produces"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TypeOfCar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBodyStyle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEngineType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFueledBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMadeIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProducedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProducedBys"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProducedIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BrandOfCar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BrandOfHGV"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TypeOfCar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CarsFromLexus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daimler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EVMotor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electricity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExecutiveCar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ford"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Germany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IVECO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lexus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tesla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#USA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VW"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AudioEquipment"/>
+        <Class IRI="#VehicleEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BMW"/>
+        <Class IRI="#CarManufacturer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BioFuel"/>
+        <Class IRI="#FuelType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buses"/>
+        <Class IRI="#HGV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarManufacturer"/>
+        <Class IRI="#Manufacturer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarsFromLexus"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CityCar"/>
+        <Class IRI="#FamilyCar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompactExecutiveCar"/>
+        <Class IRI="#ExecutiveCar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompactSportCar"/>
+        <Class IRI="#SportsCar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Convertible"/>
+        <Class IRI="#BodyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daimler"/>
+        <Class IRI="#HGVManufacturer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diesel"/>
+        <Class IRI="#FuelType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EVMotor"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electricity"/>
+        <Class IRI="#FuelType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estate"/>
+        <Class IRI="#BodyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExecutiveCar"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FamilyCar"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ford"/>
+        <Class IRI="#CarManufacturer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fuelsteering"/>
+        <Class IRI="#VehicleEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FullSizeExecutiveCar"/>
+        <Class IRI="#ExecutiveCar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrandTourers"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HGV"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HGVManufacturer"/>
+        <Class IRI="#Manufacturer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HatchBack"/>
+        <Class IRI="#BodyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridMotor"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IVECO"/>
+        <Class IRI="#HGVManufacturer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustrialVehicle"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InlineEngine"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LargeFamilyCar"/>
+        <Class IRI="#FamilyCar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lexus"/>
+        <Class IRI="#CarManufacturer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAN"/>
+        <Class IRI="#HGVManufacturer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MercedesTruck"/>
+        <Class IRI="#SemiTruck"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MidLuxuryExecutiveCar"/>
+        <Class IRI="#ExecutiveCar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultipurposeCar"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NamedCar"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NavigationSystem"/>
+        <Class IRI="#VehicleEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nissan"/>
+        <Class IRI="#HGVManufacturer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OffRoadCar"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petrol"/>
+        <Class IRI="#FuelType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SafetyEquipment"/>
+        <Class IRI="#VehicleEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salun"/>
+        <Class IRI="#BodyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemiTruck"/>
+        <Class IRI="#HGV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmallFamilyCar"/>
+        <Class IRI="#FamilyCar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SportSaloonCar"/>
+        <Class IRI="#SportsCar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SportsCar"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuperminiCar"/>
+        <Class IRI="#FamilyCar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tesla"/>
+        <Class IRI="#CarManufacturer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truck"/>
+        <Class IRI="#HGV"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VEngine"/>
+        <Class IRI="#Engine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VW"/>
+        <Class IRI="#CarManufacturer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Van"/>
+        <Class IRI="#BodyType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volvo"/>
+        <Class IRI="#HGVManufacturer"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#BMW"/>
+        <Class IRI="#Ford"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMW"/>
+        <Class IRI="#Lexus"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMW"/>
+        <Class IRI="#Tesla"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMW"/>
+        <Class IRI="#VW"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Car"/>
+        <Class IRI="#HGV"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Car"/>
+        <Class IRI="#IndustrialVehicle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CityCar"/>
+        <Class IRI="#LargeFamilyCar"/>
+        <Class IRI="#SmallFamilyCar"/>
+        <Class IRI="#SuperminiCar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CompactExecutiveCar"/>
+        <Class IRI="#FullSizeExecutiveCar"/>
+        <Class IRI="#MidLuxuryExecutiveCar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CompactSportCar"/>
+        <Class IRI="#SportSaloonCar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Daimler"/>
+        <Class IRI="#IVECO"/>
+        <Class IRI="#MAN"/>
+        <Class IRI="#Nissan"/>
+        <Class IRI="#Volvo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EVMotor"/>
+        <Class IRI="#InlineEngine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EVMotor"/>
+        <Class IRI="#VEngine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ford"/>
+        <Class IRI="#Lexus"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HGV"/>
+        <Class IRI="#IndustrialVehicle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HybridMotor"/>
+        <Class IRI="#InlineEngine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HybridMotor"/>
+        <Class IRI="#VEngine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#InlineEngine"/>
+        <Class IRI="#VEngine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Lexus"/>
+        <Class IRI="#VW"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#CarManufacturer"/>
+        <NamedIndividual IRI="#BMW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+            <Class IRI="#Car"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#CarsFromLexus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HGVManufacturer"/>
+        <NamedIndividual IRI="#Daimler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="#EVMotor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FuelType"/>
+        <NamedIndividual IRI="#Electricity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Car"/>
+        <NamedIndividual IRI="#ExecutiveCar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CarManufacturer"/>
+        <NamedIndividual IRI="#Ford"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HGVManufacturer"/>
+        <NamedIndividual IRI="#IVECO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CarManufacturer"/>
+        <NamedIndividual IRI="#Lexus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CarManufacturer"/>
+        <NamedIndividual IRI="#Tesla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CarManufacturer"/>
+        <NamedIndividual IRI="#VW"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Produces"/>
+        <NamedIndividual IRI="#BMW"/>
+        <NamedIndividual IRI="#ExecutiveCar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <NamedIndividual IRI="#CarsFromLexus"/>
+        <NamedIndividual IRI="#Lexus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <NamedIndividual IRI="#Daimler"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsEngineTypeOf"/>
+        <NamedIndividual IRI="#EVMotor"/>
+        <NamedIndividual IRI="#Tesla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Fuels"/>
+        <NamedIndividual IRI="#Electricity"/>
+        <NamedIndividual IRI="#Tesla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <NamedIndividual IRI="#ExecutiveCar"/>
+        <NamedIndividual IRI="#BMW"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <NamedIndividual IRI="#Ford"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Makes"/>
+        <NamedIndividual IRI="#Germany"/>
+        <NamedIndividual IRI="#BMW"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isProducedIn"/>
+        <NamedIndividual IRI="#IVECO"/>
+        <NamedIndividual IRI="#Italy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Designed"/>
+        <NamedIndividual IRI="#Italy"/>
+        <NamedIndividual IRI="#IVECO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Makes"/>
+        <NamedIndividual IRI="#Japan"/>
+        <NamedIndividual IRI="#Lexus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <NamedIndividual IRI="#Lexus"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEngineType"/>
+        <NamedIndividual IRI="#Tesla"/>
+        <NamedIndividual IRI="#EVMotor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFueledBy"/>
+        <NamedIndividual IRI="#Tesla"/>
+        <NamedIndividual IRI="#Electricity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <NamedIndividual IRI="#Tesla"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Makes"/>
+        <NamedIndividual IRI="#USA"/>
+        <NamedIndividual IRI="#Ford"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <NamedIndividual IRI="#VW"/>
+        <NamedIndividual IRI="#Germany"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TypeOfCar"/>
+        <NamedIndividual IRI="#BMW"/>
+        <Literal>Executive Car</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BrandOfCar"/>
+        <NamedIndividual IRI="#CarsFromLexus"/>
+        <Literal>Lexus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TypeOfCar"/>
+        <NamedIndividual IRI="#ExecutiveCar"/>
+        <Literal>Executive</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TypeOfCar"/>
+        <NamedIndividual IRI="#Ford"/>
+        <Literal>Family Car</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BrandOfCar"/>
+        <NamedIndividual IRI="#Germany"/>
+        <Literal>BMW
+VW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BrandOfHGV"/>
+        <NamedIndividual IRI="#IVECO"/>
+        <Literal>IVECO</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BrandOfCar"/>
+        <NamedIndividual IRI="#Japan"/>
+        <Literal>Lexus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BrandOfCar"/>
+        <NamedIndividual IRI="#Lexus"/>
+        <Literal>Lexus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BrandOfCar"/>
+        <NamedIndividual IRI="#Tesla"/>
+        <Literal>Tesla</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BrandOfCar"/>
+        <NamedIndividual IRI="#USA"/>
+        <Literal>Ford</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BrandOfCar"/>
+        <NamedIndividual IRI="#VW"/>
+        <Literal>VW</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#BodyStyle"/>
+        <ObjectProperty IRI="#Vehicle"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CarManufacturerCo"/>
+        <ObjectProperty IRI="#Manufacturer"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CountryOfProduction"/>
+        <ObjectProperty IRI="#HGVManufacturerCo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CountryProducedIn"/>
+        <ObjectProperty IRI="#Manufacturer"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Designed"/>
+        <ObjectProperty IRI="#HGVManufacturerCo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Engine"/>
+        <ObjectProperty IRI="#Vehicle"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Fuel"/>
+        <ObjectProperty IRI="#Vehicle"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Fuels"/>
+        <ObjectProperty IRI="#Fuel"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#HGVManufacturerCo"/>
+        <ObjectProperty IRI="#Manufacturer"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IsBodyStyleOf"/>
+        <ObjectProperty IRI="#BodyStyle"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IsEngineTypeOf"/>
+        <ObjectProperty IRI="#Engine"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#IsManufacturer"/>
+        <ObjectProperty IRI="#Vehicle"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#MadeIn"/>
+        <ObjectProperty IRI="#IsManufacturer"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Makes"/>
+        <ObjectProperty IRI="#CarManufacturerCo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Manufacturer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ProducedIn"/>
+        <ObjectProperty IRI="#isProducedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Produces"/>
+        <ObjectProperty IRI="#TypeOfCar"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TypeOfCar"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Vehicle"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBodyStyle"/>
+        <ObjectProperty IRI="#BodyStyle"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEngineType"/>
+        <ObjectProperty IRI="#Engine"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isFueledBy"/>
+        <ObjectProperty IRI="#Fuel"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <ObjectProperty IRI="#CountryProducedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <ObjectProperty IRI="#CarManufacturerCo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isProducedIn"/>
+        <ObjectProperty IRI="#CountryOfProduction"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Fuels"/>
+        <ObjectProperty IRI="#isFueledBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IsBodyStyleOf"/>
+        <ObjectProperty IRI="#hasBodyStyle"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IsEngineTypeOf"/>
+        <ObjectProperty IRI="#hasEngineType"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Makes"/>
+        <ObjectProperty IRI="#isMadeIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Produces"/>
+        <ObjectProperty IRI="#isProducedBy"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Designed"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Fuels"/>
+        <Class IRI="#FuelType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsBodyStyleOf"/>
+        <Class IRI="#BodyType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsEngineTypeOf"/>
+        <Class IRI="#Engine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#MadeIn"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Makes"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Produces"/>
+        <Class IRI="#CarManufacturer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodyStyle"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEngineType"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFueledBy"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <Class IRI="#CarManufacturer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProducedBy"/>
+        <Class IRI="#Car"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProducedIn"/>
+        <Class IRI="#HGVManufacturer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Designed"/>
+        <Class IRI="#HGVManufacturer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Fuels"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsBodyStyleOf"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsEngineTypeOf"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#MadeIn"/>
+        <Class IRI="#Manufacturer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Makes"/>
+        <Class IRI="#CarManufacturer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Produces"/>
+        <Class IRI="#Car"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyStyle"/>
+        <Class IRI="#BodyType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEngineType"/>
+        <Class IRI="#Engine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFueledBy"/>
+        <Class IRI="#FuelType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMadeIn"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProducedBys"/>
+        <Class IRI="#CarManufacturer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProducedIn"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BrandOfCar"/>
+        <Class IRI="#CarManufacturer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BrandOfHGV"/>
+        <Class IRI="#HGVManufacturer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TypeOfCar"/>
+        <Class IRI="#Car"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#BrandOfCar"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#BrandOfHGV"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TypeOfCar"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CarManufacturer</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
+        <Literal>makes car</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
+
